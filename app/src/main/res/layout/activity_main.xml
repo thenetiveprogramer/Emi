@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMI Calculator"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        android:background="@android:color/holo_blue_dark"
+        android:textSize="50dp"/>
+
+    <EditText
+        android:id="@+id/amt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Principal = "
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/Intrest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rate of Intrest = "
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/mnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Time Period = "
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/cal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="calculate"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/Emi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Emi"
+        android:gravity="center|left"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/Totalamt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total amt"
+        android:gravity="center|left"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/Intrestamt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intrest amt"
+        android:gravity="center|left"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"/>
+
+</LinearLayout>
